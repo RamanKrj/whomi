@@ -9,12 +9,56 @@
      position: absolute;
      top: 50px;
      right: 300px;
+     animation-name: top-cloud;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+ }
+ 
+ @keyframes top-cloud {
+     0% {
+         top: 50px;
+         right: 300px;
+     }
+     25% {
+         right: 225px;
+     }
+     50% {
+         right: 250px;
+     }
+     75% {
+         right: 275px;
+     }
+     100% {
+         right: 300px;
+     }
  }
  
  .bottom-cloud {
      position: absolute;
      left: 300px;
      bottom: 300px;
+     animation-name: bottom-cloud;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+ }
+ 
+ @keyframes bottom-cloud {
+     0% {
+         left: 300px;
+         bottom: 300px;
+     }
+     25% {
+         left: 225px;
+     }
+     50% {
+         left: 250px;
+     }
+     75% {
+         left: 275px;
+     }
+     100% {
+         left: 300px;
+     }
  }
  
  h1 {
